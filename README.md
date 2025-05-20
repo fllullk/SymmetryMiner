@@ -10,19 +10,23 @@ To understand how many matrices exhibit 90° rotational symmetry, we start with 
 A general 2×2 matrix is:
 
 $$
-\begin{pmatrix}a & b \\ c & d\end{pmatrix}
+\begin{pmatrix}a & b \\ 
+c & d\end{pmatrix}
 $$
 
 Applying a 90° rotation yields:
 
 $$
-\begin{pmatrix}c & a \\ d & b\end{pmatrix}
+\begin{pmatrix}c & a \\ 
+d & b\end{pmatrix}
 $$
 
 For the matrix to be invariant under this rotation, it must be equal to its rotated form:
 
 $$
-\begin{pmatrix}a & b \\ c & d\end{pmatrix} = \begin{pmatrix}c & a \\ d & b\end{pmatrix}
+\begin{pmatrix}a & b \\ 
+c & d\end{pmatrix} = \begin{pmatrix}c & a \\ 
+d & b\end{pmatrix}
 $$
 
 From this, we derive the constraints:
@@ -34,7 +38,8 @@ From this, we derive the constraints:
 This leads to all elements being equal:
 
 $$
-\begin{pmatrix}a & a \\ a & a\end{pmatrix}
+\begin{pmatrix}a & a \\ 
+a & a\end{pmatrix}
 $$
 
 So, only one unique value determines the entire matrix. If matrix entries are chosen from 4 possible values (say, 0 to 3), then the number of such symmetric matrices is:
@@ -50,14 +55,19 @@ As we increase the matrix size, more degrees of freedom remain, though the symme
 - **3×3**:
 
 $$
-\begin{pmatrix}a & b & a \\ b & c & b \\ a & b & a\end{pmatrix}
+\begin{pmatrix}a & b & a \\ 
+b & c & b \\ 
+a & b & a\end{pmatrix}
 \quad \Rightarrow \quad \left(3^2\right)^3
 $$
 
 - **4×4**:
 
 $$
-\begin{pmatrix}a & b & c & a \\ c & d & d & b \\ b & d & d & c \\ a & c & b & a\end{pmatrix}
+\begin{pmatrix}a & b & c & a \\ 
+c & d & d & b \\ 
+b & d & d & c \\ 
+a & c & b & a\end{pmatrix}
 \quad \Rightarrow \quad \left(4^2\right)^4
 $$
 
