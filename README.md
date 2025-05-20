@@ -106,4 +106,4 @@ $$
 f(n) = -\frac{3}{8}(-1)^n + \frac{n^2}{4} + \frac{3}{8}
 $$
 
-However, the context of rotational symmetry in matrices — especially as framed here — is not yet documented in the OEIS for this sequence, nor is this specific function. This observation may be novel, and I plan to contribute a note or comment to OEIS soon to highlight this symmetry interpretation.
+However, the context of rotational symmetry in matrices, especially as framed here, is not yet documented in the OEIS for this sequence, nor is this specific function. This observation may be novel, and I plan to contribute a note or comment to OEIS soon to highlight this symmetry interpretation.
